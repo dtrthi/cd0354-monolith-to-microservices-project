@@ -1,0 +1,10 @@
+kubectl -n project-3 get pods
+NAME                            READY   STATUS    RESTARTS   AGE
+backend-feed-b89fd4989-xbx64    1/1     Running   0          11m
+backend-feed-b89fd4989-xnphd    1/1     Running   0          11m
+backend-user-6945c8b768-6dsl4   1/1     Running   0          11m
+backend-user-6945c8b768-nkf2l   1/1     Running   0          11m
+frontend-77cb97b947-fhppk       1/1     Running   0          11m
+frontend-77cb97b947-xfnm5       1/1     Running   0          11m
+reverseproxy-796578f76f-f7pnn   1/1     Running   0          11m
+reverseproxy-796578f76f-pt28n   1/1     Running   0          11m
